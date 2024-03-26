@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/asset/css/Style.css">
+</head>
+<body>
+    <nav class="nav_item">
+        <h2 class="logo">BOOKSKY</h2>
+        <h3 class="logo">CodewithJP</h3>
+    </nav>
+
+    <!-- main -->
+
+    <main>
+        <section class="books" id="books">
+
+            <div class="popup" id="pop">
+                <div>
+                    <table>
+                        <tr>
+                            <td><h2 class="title">Add Book</h2></td>
+                        </tr>
+                        <tr>
+                            <td><input type="text" placeholder="Book title" id="title"></td>
+                        </tr>
+                        <tr>
+                            <td><input type="text" placeholder="Book author" id="author"></td>
+                        </tr>
+                        <tr>
+                            <td><textarea placeholder="  contens" id="content" cols="30" rows="3"></textarea></td>
+                        </tr>
+                        <tr>    
+                            <td><button class="btn" onclick="save()">ADD</button></td>
+                            <td><button class="btn" id="cancel">CANCEL</button></td>
+                         </tr>
+                
+                    </table>
+                </div>
+            </div>
+
+            
+            <h1 class="add" onclick="add()">+</h1>
+        </section>
+    </main>
+
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <script src="/asset/js/Script.js"></script>
+</body>
+</html>
